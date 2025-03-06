@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "making a microservice using node.js",
   "main": "index.js",
+  "type" : "module",
   "scripts": {
-    "dev": "nodemon"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
